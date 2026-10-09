@@ -1,7 +1,7 @@
 import unittest
 import tkinter as tk
 
-from file_organizer.components.buttons.Button import Button
+from file_organizer.components.buttons.button import Button
 from tests.components.buttons.helpers.dummy_command import dummy_command
 
 

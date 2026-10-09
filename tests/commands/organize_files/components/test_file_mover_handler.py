@@ -2,7 +2,7 @@ import os
 import unittest
 from unittest.mock import patch, call
 
-from file_organizer.commands.organize_files.components.FileMoverHandler import FileMoverHandler
+from file_organizer.commands.organize_files.components.file_mover_handler import FileMoverHandler
 
 
 class TestFileMoverHandler(unittest.TestCase):

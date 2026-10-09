@@ -1,6 +1,6 @@
 from dataclasses import fields
 
-from file_organizer.commands.generate_empty_files.extensions.Extensions import Extensions
+from file_organizer.commands.generate_empty_files.extensions.extensions import Extensions
 
 
 def get_extensions_test_data() -> list[str]:

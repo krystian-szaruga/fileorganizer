@@ -1,4 +1,4 @@
-from file_organizer.app.FileOrganizer import FileOrganizerApp
+from file_organizer.app.file_organizer import FileOrganizerApp
 
 if __name__ == "__main__":
     app = FileOrganizerApp()

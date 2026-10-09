@@ -1,6 +1,6 @@
 from tkinter import messagebox
 
-from file_organizer.components.message_displayer.MessageDisplayer import MessageDisplayer
+from file_organizer.components.message_displayer.message_displayer import MessageDisplayer
 
 
 class InfoDisplayer(MessageDisplayer):

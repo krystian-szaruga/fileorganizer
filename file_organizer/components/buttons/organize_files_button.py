@@ -1,9 +1,9 @@
 from typing import Optional
 
-from file_organizer.components.buttons.Button import Button
+from file_organizer.components.buttons.button import Button
 import tkinter as tk
 
-from file_organizer.commands.organize_files.OrganizeFiles import OrganizeFiles
+from file_organizer.commands.organize_files.organize_files import OrganizeFiles
 
 
 class OrganizeFilesButton(Button):

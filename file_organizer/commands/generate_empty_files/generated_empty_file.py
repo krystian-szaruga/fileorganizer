@@ -3,8 +3,8 @@ import os.path
 from itertools import product
 from typing import Optional
 
-from file_organizer.commands.generate_empty_files.extensions.Extensions import Extensions
-from file_organizer.commands.generate_empty_files.extensions.FileData import FileData
+from file_organizer.commands.generate_empty_files.extensions.extensions import Extensions
+from file_organizer.commands.generate_empty_files.extensions.file_data import FileData
 
 
 class GenerateEmptyFiles:

@@ -4,9 +4,9 @@ import shutil
 import unittest
 from unittest.mock import patch
 
-from file_organizer.commands.generate_empty_files.GenerateEmptyFiles import GenerateEmptyFiles
-from file_organizer.commands.generate_empty_files.extensions.Extensions import Extensions
-from file_organizer.commands.generate_empty_files.extensions.FileData import FileData
+from file_organizer.commands.generate_empty_files.generated_empty_file import GenerateEmptyFiles
+from file_organizer.commands.generate_empty_files.extensions.extensions import Extensions
+from file_organizer.commands.generate_empty_files.extensions.file_data import FileData
 from tests.commands.generate_empty_files.extensions.helpers.count_files import count_files, \
     count_files_per_ext
 

@@ -4,8 +4,8 @@ import unittest
 from tkinter import filedialog, messagebox
 from unittest.mock import MagicMock, patch
 
-from file_organizer.commands.directory_browser.DirectoryBrowser import DirectoryBrowser
-from file_organizer.components.message_displayer.ErrorDisplayer import ErrorDisplayer
+from file_organizer.commands.directory_browser.directory_browser import DirectoryBrowser
+from file_organizer.components.message_displayer.error_displayer import ErrorDisplayer
 
 browser = DirectoryBrowser()
 

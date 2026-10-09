@@ -2,7 +2,7 @@ import os
 import tkinter as tk
 import unittest
 
-from file_organizer.components.DirectoryEntry import DirectoryEntry
+from file_organizer.components.directory_entry import DirectoryEntry
 
 
 class TestDirectoryEntry(unittest.TestCase):

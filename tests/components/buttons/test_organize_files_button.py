@@ -2,9 +2,9 @@ import tkinter as tk
 import unittest
 from unittest.mock import patch
 
-from file_organizer.commands.organize_files.OrganizeFiles import OrganizeFiles
-from file_organizer.commands.organize_files.components.DirectoryValidator import DirectoryValidator
-from file_organizer.components.buttons.OrganizeFilesButton import OrganizeFilesButton
+from file_organizer.commands.organize_files.organize_files import OrganizeFiles
+from file_organizer.commands.organize_files.components.directory_validator import DirectoryValidator
+from file_organizer.components.buttons.organize_files_button import OrganizeFilesButton
 
 
 class TestOrganizeFilesButton(unittest.TestCase):

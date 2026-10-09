@@ -3,7 +3,7 @@ import unittest
 from tkinter import messagebox
 from unittest.mock import patch
 
-from file_organizer.commands.organize_files.components.DirectoryValidator import DirectoryValidator
+from file_organizer.commands.organize_files.components.directory_validator import DirectoryValidator
 
 
 class TestDirectoryValidator(unittest.TestCase):

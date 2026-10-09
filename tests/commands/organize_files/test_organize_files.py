@@ -2,10 +2,10 @@ import unittest
 from tkinter import messagebox
 from unittest.mock import MagicMock, patch, call
 
-from file_organizer.commands.organize_files.OrganizeFiles import OrganizeFiles
-from file_organizer.commands.organize_files.components.DirectoryValidator import DirectoryValidator
-from file_organizer.components.message_displayer.ErrorDisplayer import ErrorDisplayer
-from file_organizer.components.message_displayer.InfoDisplayer import InfoDisplayer
+from file_organizer.commands.organize_files.organize_files import OrganizeFiles
+from file_organizer.commands.organize_files.components.directory_validator import DirectoryValidator
+from file_organizer.components.message_displayer.error_displayer import ErrorDisplayer
+from file_organizer.components.message_displayer.info_displayer import InfoDisplayer
 
 
 class TestOrganizeFiles(unittest.TestCase):

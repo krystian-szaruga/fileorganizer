@@ -1,8 +1,8 @@
 import tkinter as tk
 from typing import Optional
 
-from file_organizer.commands.directory_browser.DirectoryBrowser import DirectoryBrowser
-from file_organizer.components.buttons.Button import Button
+from file_organizer.commands.directory_browser.directory_browser import DirectoryBrowser
+from file_organizer.components.buttons.button import Button
 
 
 class BrowseButton(Button):

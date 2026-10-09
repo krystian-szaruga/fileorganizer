@@ -3,8 +3,8 @@ from tkinter import messagebox
 from unittest.mock import patch
 from collections import defaultdict
 
-from file_organizer.commands.organize_files.components.FileFinder import FileFinder
-from file_organizer.components.message_displayer.InfoDisplayer import InfoDisplayer
+from file_organizer.commands.organize_files.components.file_finder import FileFinder
+from file_organizer.components.message_displayer.info_displayer import InfoDisplayer
 
 
 class TestFileFinder(unittest.TestCase):

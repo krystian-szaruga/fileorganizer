@@ -1,6 +1,6 @@
 import os
 
-from file_organizer.components.message_displayer.ErrorDisplayer import ErrorDisplayer
+from file_organizer.components.message_displayer.error_displayer import ErrorDisplayer
 
 
 class DirectoryValidator:

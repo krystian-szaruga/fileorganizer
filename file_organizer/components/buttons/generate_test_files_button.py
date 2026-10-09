@@ -1,8 +1,8 @@
-from file_organizer.components.buttons.Button import Button
+from file_organizer.components.buttons.button import Button
 import tkinter as tk
 
-from file_organizer.commands.generate_empty_files.GenerateEmptyFiles import GenerateEmptyFiles
-from file_organizer.commands.generate_empty_files.extensions.FileData import FileData
+from file_organizer.commands.generate_empty_files.generated_empty_file import GenerateEmptyFiles
+from file_organizer.commands.generate_empty_files.extensions.file_data import FileData
 
 
 class GenerateTestFilesButton(Button):

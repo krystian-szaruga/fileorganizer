@@ -2,7 +2,7 @@ import os.path
 import shutil
 import unittest
 
-from file_organizer.commands.generate_empty_files.extensions.FileData import FileData
+from file_organizer.commands.generate_empty_files.extensions.file_data import FileData
 
 
 class TestFileData(unittest.TestCase):

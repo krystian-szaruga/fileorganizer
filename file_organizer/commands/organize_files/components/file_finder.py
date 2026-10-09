@@ -2,7 +2,7 @@ import os
 from collections import defaultdict
 from typing import Callable
 
-from file_organizer.components.message_displayer.InfoDisplayer import InfoDisplayer
+from file_organizer.components.message_displayer.info_displayer import InfoDisplayer
 
 
 def call_file_finder(cls) -> Callable:

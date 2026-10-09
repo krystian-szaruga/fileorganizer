@@ -1,10 +1,10 @@
-from file_organizer.app.App import App
-from file_organizer.commands.generate_empty_files.extensions.FileData import FileData
-from file_organizer.components.DirectoryEntry import DirectoryEntry
-from file_organizer.components.MainFrame import MainFrame
-from file_organizer.components.buttons.BrowseButton import BrowseButton
-from file_organizer.components.buttons.GenerateTestFilesButton import GenerateTestFilesButton
-from file_organizer.components.buttons.OrganizeFilesButton import OrganizeFilesButton
+from file_organizer.app.app import App
+from file_organizer.commands.generate_empty_files.extensions.file_data import FileData
+from file_organizer.components.directory_entry import DirectoryEntry
+from file_organizer.components.main_frame import MainFrame
+from file_organizer.components.buttons.browse_buttons import BrowseButton
+from file_organizer.components.buttons.generate_test_files_button import GenerateTestFilesButton
+from file_organizer.components.buttons.organize_files_button import OrganizeFilesButton
 
 
 class FileOrganizerApp(App):

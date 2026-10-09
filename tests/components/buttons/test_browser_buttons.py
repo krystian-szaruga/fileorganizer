@@ -2,8 +2,8 @@ import tkinter as tk
 import unittest
 from unittest.mock import patch
 
-from file_organizer.commands.directory_browser.DirectoryBrowser import DirectoryBrowser
-from file_organizer.components.buttons.BrowseButton import BrowseButton
+from file_organizer.commands.directory_browser.directory_browser import DirectoryBrowser
+from file_organizer.components.buttons.browse_buttons import BrowseButton
 
 
 class TestBrowseButton(unittest.TestCase):

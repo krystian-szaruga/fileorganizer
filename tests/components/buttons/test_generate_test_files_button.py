@@ -3,8 +3,8 @@ import tkinter as tk
 import unittest
 from unittest.mock import patch
 
-from file_organizer.commands.generate_empty_files.GenerateEmptyFiles import GenerateEmptyFiles
-from file_organizer.components.buttons.GenerateTestFilesButton import GenerateTestFilesButton
+from file_organizer.commands.generate_empty_files.generated_empty_file import GenerateEmptyFiles
+from file_organizer.components.buttons.generate_test_files_button import GenerateTestFilesButton
 
 
 class TestGenerateTestFilesButton(unittest.TestCase):

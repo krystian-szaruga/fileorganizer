@@ -1,11 +1,11 @@
 import os
 from typing import Optional
 
-from file_organizer.commands.organize_files.components.DirectoryValidator import DirectoryValidator
-from file_organizer.commands.organize_files.components.FileFinder import FileFinder
-from file_organizer.commands.organize_files.components.FileMoverHandler import FileMoverHandler
-from file_organizer.components.message_displayer.ErrorDisplayer import ErrorDisplayer
-from file_organizer.components.message_displayer.InfoDisplayer import InfoDisplayer
+from file_organizer.commands.organize_files.components.directory_validator import DirectoryValidator
+from file_organizer.commands.organize_files.components.file_finder import FileFinder
+from file_organizer.commands.organize_files.components.file_mover_handler import FileMoverHandler
+from file_organizer.components.message_displayer.error_displayer import ErrorDisplayer
+from file_organizer.components.message_displayer.info_displayer import InfoDisplayer
 
 
 class OrganizeFiles:

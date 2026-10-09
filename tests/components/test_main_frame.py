@@ -2,7 +2,7 @@ import unittest
 import tkinter as tk
 from unittest.mock import MagicMock
 
-from file_organizer.components.MainFrame import MainFrame
+from file_organizer.components.main_frame import MainFrame
 
 
 class TestMainFrame(unittest.TestCase):
